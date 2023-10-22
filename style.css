@@ -1,4 +1,8 @@
-/* Estilos gerais */
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+}
 body {
     font-family: Arial, sans-serif;
     background-color: lightgrey;
@@ -11,8 +15,11 @@ header {
     background-color: #333;
     color: #fff;
     padding: 10px;
+    margin-bottom: 1rem;
 }
-
+#sobre h2{
+    text-align: center;
+}
 #sobre p{
     background-color: white;
     padding: 10px;
@@ -24,27 +31,38 @@ header {
 /* Estilos da navegação */
 nav ul {
     list-style: none;
-    padding: 0;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
 }
 
-nav ul li {
+nav ul li{
     display: inline;
-    margin-right: 20px;
+    
+    
+    
 }
 
 nav a {
     text-decoration: none;
     color: #333;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+    padding: 1.5rem;
+   
+    
     
 }
 nav a:hover{
     font-weight: bold;
-    color:rgb(83, 47, 47);
+    color:purple;
     transition: 0.5s;
+    text-decoration:underline;
+    
 } 
 
 /* Estilos do portfólio */
-#portfolio {
+#portfolio{
     text-align: center;
 }
 
