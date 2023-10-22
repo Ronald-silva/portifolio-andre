@@ -26,7 +26,7 @@ header {
     padding: 10px;
     border-radius: 20px;
     text-align: center;
-    margin: 1rem;
+    margin: 1rem 0 1rem 0;
     
 }
 
@@ -41,10 +41,7 @@ nav ul {
 nav ul li{
     display: inline;
     
-    
-    
 }
-
 nav a {
     text-decoration: none;
     color: #333;
@@ -128,8 +125,11 @@ footer {
     #sobre p{
         margin: 0 2rem 0 2rem;
     }
+    .contato h2{
+        margin: 2rem 0 0 0.5rem;
+    }
     .contato a{
-        margin: 1rem 0 0 0.2rem;
+        margin: 1rem 0 1rem 0.6rem;
     }
 
     
