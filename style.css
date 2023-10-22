@@ -128,8 +128,9 @@ footer {
     #sobre p{
         margin: 0 2rem 0 2rem;
     }
-    .contato, a{
-        margin: 1rem 0 0 1rem;
+    .contato a{
+        margin: 1rem 0 0 0.2rem;
     }
+
     
 }
