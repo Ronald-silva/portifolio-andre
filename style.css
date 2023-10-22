@@ -60,12 +60,17 @@ nav a:hover{
     color:purple;
     transition: 0.5s;
     text-decoration:underline;
+    background-color: burlywood;
+    border-radius: 20px;
     
 } 
 
 /* Estilos do portfólio */
 #portfolio{
     text-align: center;
+}
+#portfolio h2{
+    margin: 3rem 0 1rem 0;
 }
 
 .imagem {
@@ -78,7 +83,7 @@ nav a:hover{
     height: 25rem;
     border-radius: 20px;
 }
-#contato img{
+.contato img{
     margin-left: 1.2rem;
 }
 
